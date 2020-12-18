@@ -1,25 +1,28 @@
-.feedback {
+.survey {
   width: 100%;
   height: 500px;
   display: flex;
+  justify-content: flex-end;
   align-items: flex-start;
   background-color: $white;
 
-  .feed-container {
+  .survey-container {
     width: 80%;
     height: 70%;
     display: flex;
 
-    .feed-left {
+    .survey-left {
       width: 60%;
       height: 100%;
+      display: flex;
+      justify-content: flex-end;
 
       img {
         height: 410px;
       }
     }
 
-    .feed-right {
+    .survey-right {
       width: 35%;
       height: 100%;
 
@@ -42,7 +45,7 @@
         font-size: 20px;
       }
 
-      .feed-right-img {
+      .survey-right-img {
         width: 100%;
         height: 45%;
         display: flex;
