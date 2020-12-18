@@ -1,0 +1,37 @@
+.feedback {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+
+  .feed-container {
+    width: 80%;
+    height: 70%;
+    background-color: lightseagreen;
+    display: flex;
+
+    .feed-left {
+      width: 60%;
+      height: 100%;
+
+      img {
+        height: 410px;
+      }
+    }
+
+    .feed-right {
+      width: 30%;
+      height: 100%;
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .feed-right-img {
+        img {
+          height: 200px;
+        }
+      }
+    }
+  }
+}
