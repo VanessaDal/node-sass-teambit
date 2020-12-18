@@ -3,18 +3,16 @@
   height: 100px;
   display: flex;
   justify-content: center;
-  background-color: lightpink;
 }
 
 nav {
   width: 80%;
-  background-color: lightsalmon;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 
   .nav-logo {
     width: 10%;
-    background-color: lightskyblue;
     display: flex;
     justify-content: space-around;
 
@@ -25,6 +23,29 @@ nav {
 
   .nav-links {
     width: 40%;
-    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: $brown;
+      font-weight: bold;
+
+      button {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $blue;
+        padding: 0 10px;
+        font-weight: bold;
+        border: 1 px solid $blue;
+        border-radius: 10px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
