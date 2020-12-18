@@ -175,6 +175,65 @@ nav .nav-links a button:hover {
   height: 280px;
 }
 
+.traditional {
+  background-color: #ffe7d2;
+  width: 100%;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+}
+
+.traditional .trad-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.traditional .trad-container h1 {
+  padding: 0 20%;
+  color: #58402c;
+  text-align: center;
+  font-size: 30px;
+  margin: 70px 0;
+}
+
+.traditional .trad-container .trad-pics {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.traditional .trad-container .trad-pics .trad-pic {
+  width: 25%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.traditional .trad-container .trad-pics .trad-pic img {
+  height: 120px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.traditional .trad-container .trad-pics .trad-pic p {
+  text-align: center;
+  font-size: 20px;
+  color: #58402c;
+}
+
+.traditional .bunny {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.traditional .bunny img {
+  height: 280px;
+}
+
 * {
   margin: 0;
   padding: 0;
